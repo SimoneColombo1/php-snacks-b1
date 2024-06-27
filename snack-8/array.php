@@ -64,4 +64,3 @@ $mammiferi = array_filter($Animali, 'mammifero');
 $rettili = array_filter($Animali, 'rettile');
 $pesci = array_filter($Animali, 'pesce');
 $uccelli = array_filter($Animali, 'uccello');
-echo $pesci . $mammiferi;
