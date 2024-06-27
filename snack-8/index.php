@@ -16,6 +16,29 @@ include __DIR__ . '/array.php';
 
 <body>
 
+
+
+    <main>
+
+        <?php
+
+        foreach ($mammiferi as $mammifero) {
+            echo $mammifero;
+        }
+        foreach ($uccelli as $uccello) {
+            echo $uccello;
+        }
+        foreach ($rettili as $rettile) {
+            echo $rettile;;
+        }
+        foreach ($pesci as $pesce) {
+            echo $pesce;
+        }
+
+
+
+        ?>
+    </main>
 </body>
 
 </html>
