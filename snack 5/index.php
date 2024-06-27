@@ -1,6 +1,6 @@
 <?php
 
-// Paragrafo di esempio
+
 $testo = "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo magni, aliquam, dignissimos aut fuga distinctio ipsa sapiente officia illum eligendi accusamus dolores eaque facere quidem reprehenderit modi ullam voluptatibus illo. ";
 
 
@@ -32,7 +32,9 @@ $stampa = implode($NUovotesto);
 </head>
 
 <body>
-    <p><?php echo $stampa; ?> </p>
+    <p><?php echo $stampa; ?>
+
+    </p>
 </body>
 
 </html>
